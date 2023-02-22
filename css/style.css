@@ -1,13 +1,8 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	color: #515151;
 }
 
 .wrapper {
@@ -15,6 +10,35 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	display: block;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-family: Baskerville;
+	color: rgb(141,163,156);
+	font-size: 5em;
+	margin: 0;
+}
+
+h2 {
+	color: rgb(141,163,156);
+	font-size: 2em;
+}
+
+.wrapper img#necklace {
+	border: 5px solid rgb(141,163,156);
+}
+
+.wrapper img {
+	border: 5px solid lightgrey;
+}
+
+.wrapper img:hover {
+	border: 5px solid rgb(141,163,156);
+}
+
+#footer {
+	display: block;
+	text-align: right;
+	font-size: 15px;
+}
